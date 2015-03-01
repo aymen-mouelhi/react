@@ -4,6 +4,66 @@
 
 var converter = new Showdown.converter();
 
+var Avatar = React.createClass({
+    render: function() {
+        return (
+            <div className="user-info">
+                <ProfilePic username={this.props.username} />
+                <ProfileInfo username={this.props.username} category_image={this.props.category}/>
+            </div>
+        );
+    }
+});
+
+var ProfilePic = React.createClass({
+    render: function() {
+        return (
+            <img src={'http://graph.facebook.com/' + this.props.username + '/picture'} className="profile-img" />
+        );
+    }
+});
+
+var ProfileInfo = React.createClass({
+    render: function() {
+        return (
+            <div className="info">
+                <div className="username">
+                    <strong className="fullname">{this.props.username}</strong>
+                </div>
+                <span className="screenname">
+                    <a href={'http://www.facebook.com/' + this.props.username} className="screenname">
+                        {this.props.username}
+                    </a>
+                </span>
+                <Ribbon image ={this.props.category_image} />
+            </div>
+        );
+    }
+});
+
+
+var Ribbon = React.createClass({
+    render: function() {
+        return (
+            <div className="ribbon">
+                <a target="_blank" href="#">
+                    <img src={this.props.image} />
+                </a>
+            </div>
+        );
+    }
+});
+
+
+var CardHeader = React.createClass({
+    render: function() {
+        return (
+            <Avatar username={this.props.username} category={this.props.category} />
+        );
+    }
+});
+
+
 var CardCategory = React.createClass({
     render: function () {
         return (
@@ -17,8 +77,8 @@ var CardCategory = React.createClass({
 var CardText = React.createClass({
     render: function () {
         return (
-            <div className="text">
-                Looking for 2 more persons for a volleyball game tonight
+            <div className="card-text">
+            {this.props.text}
             </div>
         );
     }
@@ -28,8 +88,13 @@ var CardText = React.createClass({
 var CardDetails = React.createClass({
     render: function () {
         return (
-            <div className="details">
-                Time + distance
+            <div className="card-footer">
+                <div className="timeago">
+                    <p>2 hours ago</p>
+                </div>
+                <div className="location">
+                    <p>500m</p>
+                </div>
             </div>
         );
     }
@@ -43,9 +108,8 @@ var Card = React.createClass({
         return (
             <div className="card">
                 <div className="content">
-                    <div className="title">Permission</div>
-                    <CardCategory />
-                    <CardText />
+                    <CardHeader username={this.props.username} category={this.props.category} />
+                    <CardText text={this.props.children.toString()} />
                     <CardDetails />
                 </div>
             </div>
@@ -57,8 +121,8 @@ var CardsContainer = React.createClass({
     render: function () {
         var cardNodes = this.props.data.map(function (card) {
             return (
-                <Card author={card.first_name}>
-          {card.last_name}
+                <Card username={card.user.username} category={card.category.icon} >
+                    {card.text}
                 </Card>
             );
         });

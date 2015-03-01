@@ -1,5 +1,5 @@
 body {
-    background: #fff;
+    background: #ececec;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 15px;
     line-height: 1.7;
@@ -10,6 +10,16 @@ body {
 a {
     color: #4183c4;
     text-decoration: none;
+}
+
+.dashboard {
+    position: absolute;
+    top: 10px;
+    bottom: 0;
+    left: 20px;
+    right: 20px;
+    margin: auto;
+    width: 59%;
 }
 
 a:hover {
@@ -77,4 +87,95 @@ ul {
     background-color: rgb(255, 255, 255);
     left: 730px;
     top: 290px;
+}
+
+.profile-img {
+    border-radius: 4px 4px 4px 4px;
+    float: left;
+    height: 48px;
+    padding: 5px 5px 0;
+    width: 48px;
+}
+
+.info {
+    display: block;
+    font-family: 'Georgia',Times New Roman,Times,serif;
+    margin-left: 58px;
+    overflow: hidden;
+    padding: 5px;
+    /* added for vertical ribbon */
+    width: 74%;
+}
+
+.fullname {
+    color: #333333;
+    font-weight: bold;
+    font-family: "Helvetica Neue",Arial,sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.user-info {
+    height: 57px;
+    padding: 1px 5px 5px;
+}
+
+.card-text {
+    font: 18px/24px Georgia,Palatino,'Helvetica Neue',Helvetica,Arial,sans-serif !important;
+    margin-top: 20px;
+    line-height: 18px;
+    /* padding-left: 5px; */
+    word-wrap: break-word;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.screenname {
+    font-size: 14px;
+    margin-top: 1px;
+    text-shadow: 0 1px 0 white;
+    color: #BBBBBB;
+}
+
+.card-footer {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+.timeago {
+    color: #BBBBBB;
+    /* display: inline-block; */
+    line-height: 18px;
+    -moz-user-select: text;
+    font-size: 12px;
+    padding-top: 1px;
+}
+
+.content {
+    color: #646464;
+}
+
+.location {
+    position: absolute;
+    right: 0px;
+    display: none;
+}
+
+.ribbon {
+    border: medium none;
+    color: #0084B4;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    right: -146px;
+    top: -46px;
+}
+
+.ribbon img {
+    width: 55px;
+    height: 60px;
+    border:0;
+    line-height:100%;
 }

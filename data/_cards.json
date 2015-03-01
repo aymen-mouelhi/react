@@ -1,11 +1,98 @@
 [
   {
-    "category": "",
+    "category": {
+      "name":"sport",
+      "icon": "https://cdn0.iconfinder.com/data/icons/sports-android-l-lollipop-icon-pack/24/exercise-32.png"
+    },
     "icon": "",
-    "text": "",
+    "text": "Looking for 2 more persons for a volleyball game tonight",
     "images": [],
     "videos": [],
     "timestamp": "",
+    "location": {
+      "long": "",
+      "lat": "",
+      "city": "",
+      "country": ""
+    },
+    "user":{
+      "uid": "",
+      "username":"aymen.mouelhi",
+      "user_image":"",
+      "user_url":""
+    },
+    "tags": [],
+    "likes": [],
+    "comments": []
+  },
+  {
+    "category": {
+      "name":"offer",
+      "icon": "https://cdn3.iconfinder.com/data/icons/e-commerce-trading/512/Pricing-32.png"
+    },
+    "icon": "",
+    "text": "Hands on with Samsung's new Galaxy S6 Edge",
+    "images": [],
+    "videos": [],
+    "timestamp": "",
+    "location": {
+      "long": "",
+      "lat": "",
+      "city": "",
+      "country": ""
+    },
+    "user":{
+      "uid": "",
+      "username":"aymen.mouelhi",
+      "user_image":"",
+      "user_url":""
+    },
+    "tags": [],
+    "likes": [],
+    "comments": []
+  },
+  {
+    "category": {
+      "name":"event",
+      "icon": "https://cdn3.iconfinder.com/data/icons/flaturici-set-1/512/calendar-32.png"
+    },
+    "icon": "",
+    "text": "Moskito Blues & Rock'n'roll where: Die Kippe when: Sunday, 8pm Free Entry",
+    "images": [],
+    "videos": [],
+    "timestamp": "",
+    "location": {
+      "long": "",
+      "lat": "",
+      "city": "",
+      "country": ""
+    },
+    "user":{
+      "uid": "",
+      "username":"zeinouba1904",
+      "user_image":"",
+      "user_url":""
+    },
+    "tags": [],
+    "likes": [],
+    "comments": []
+  },
+  {
+    "category": {
+      "name":"offer",
+      "icon": "https://cdn3.iconfinder.com/data/icons/e-commerce-trading/512/Pricing-32.png"
+    },
+    "icon": "",
+    "text": "Selling my old but working bicycle 20€",
+    "images": [],
+    "videos": [],
+    "timestamp": "",
+    "user":{
+      "uid": "",
+      "username":"zeinouba1904",
+      "user_image":"",
+      "user_url":""
+    },
     "location": {
       "long": "",
       "lat": "",
@@ -17,12 +104,50 @@
     "comments": []
   },
   {
-    "category": "",
+    "category": {
+      "name":"sport",
+      "icon": "https://cdn0.iconfinder.com/data/icons/sports-android-l-lollipop-icon-pack/24/exercise-32.png"
+    },
     "icon": "",
-    "text": "",
+    "text": "Want to go tomorrow from NYC, Low Manhatten to NJ. Anyone can give me a #lift",
     "images": [],
     "videos": [],
     "timestamp": "",
+    "user":{
+      "uid": "",
+      "username":"zeinouba1904",
+      "user_image":"",
+      "user_url":""
+    },
+    "location": {
+      "long": "",
+      "lat": "",
+      "city": "",
+      "country": ""
+    },
+    "tags": [{
+      "name": "lift",
+      "index": "168"
+    }],
+    "likes": [],
+    "comments": []
+  },
+  {
+    "category": {
+      "name":"help",
+      "icon": "https://cdn1.iconfinder.com/data/icons/survivor/500/medkit-icon-32.png"
+    },
+    "icon": "",
+    "text": "Looking for a nice jogging partner(s). Wednesdays from 7pm, about 10km in the Glotz Park. Interested to join me?",
+    "images": [],
+    "videos": [],
+    "timestamp": "",
+    "user":{
+      "uid": "",
+      "username":"aymen.mouelhi",
+      "user_image":"",
+      "user_url":""
+    },
     "location": {
       "long": "",
       "lat": "",
@@ -34,12 +159,21 @@
     "comments": []
   },
   {
-    "category": "",
+    "category": {
+      "name":"sport",
+      "icon": "https://cdn0.iconfinder.com/data/icons/sports-android-l-lollipop-icon-pack/24/exercise-32.png"
+    },
     "icon": "",
-    "text": "",
+    "text": "2 seats for Sunday from Duisburg to köln. Starting at 3pm at main train station",
     "images": [],
     "videos": [],
     "timestamp": "",
+    "user":{
+      "uid": "",
+      "username":"aymen.mouelhi",
+      "user_image":"",
+      "user_url":""
+    },
     "location": {
       "long": "",
       "lat": "",
@@ -51,12 +185,21 @@
     "comments": []
   },
   {
-    "category": "",
+    "category": {
+      "name":"help",
+      "icon": "https://cdn1.iconfinder.com/data/icons/survivor/500/medkit-icon-32.png"
+    },
     "icon": "",
-    "text": "",
+    "text": "Lost my wallet yesterday in Disco \"GoGoGo\". Awarding with 50€ ",
     "images": [],
     "videos": [],
     "timestamp": "",
+    "user":{
+      "uid": "",
+      "username":"aymen.mouelhi",
+      "user_image":"",
+      "user_url":""
+    },
     "location": {
       "long": "",
       "lat": "",
@@ -68,114 +211,21 @@
     "comments": []
   },
   {
-    "category": "",
-    "icon": "",
-    "text": "",
-    "images": [],
-    "videos": [],
-    "timestamp": "",
-    "location": {
-      "long": "",
-      "lat": "",
-      "city": "",
-      "country": ""
+    "category": {
+      "name":"sell",
+      "icon": "https://cdn3.iconfinder.com/data/icons/e-commerce-trading/512/Pricing-32.png"
     },
-    "tags": [],
-    "likes": [],
-    "comments": []
-  },
-  {
-    "category": "",
     "icon": "",
-    "text": "",
+    "text": "SAMSUNG Galaxy Tab 3 at 239€",
     "images": [],
     "videos": [],
     "timestamp": "",
-    "location": {
-      "long": "",
-      "lat": "",
-      "city": "",
-      "country": ""
+    "user":{
+      "uid": "",
+      "username":"mohamed.mouelhi",
+      "user_image":"",
+      "user_url":""
     },
-    "tags": [],
-    "likes": [],
-    "comments": []
-  },
-  {
-    "category": "",
-    "icon": "",
-    "text": "",
-    "images": [],
-    "videos": [],
-    "timestamp": "",
-    "location": {
-      "long": "",
-      "lat": "",
-      "city": "",
-      "country": ""
-    },
-    "tags": [],
-    "likes": [],
-    "comments": []
-  },
-  {
-    "category": "",
-    "icon": "",
-    "text": "",
-    "images": [],
-    "videos": [],
-    "timestamp": "",
-    "location": {
-      "long": "",
-      "lat": "",
-      "city": "",
-      "country": ""
-    },
-    "tags": [],
-    "likes": [],
-    "comments": []
-  },
-  {
-    "category": "",
-    "icon": "",
-    "text": "",
-    "images": [],
-    "videos": [],
-    "timestamp": "",
-    "location": {
-      "long": "",
-      "lat": "",
-      "city": "",
-      "country": ""
-    },
-    "tags": [],
-    "likes": [],
-    "comments": []
-  },
-  {
-    "category": "",
-    "icon": "",
-    "text": "",
-    "images": [],
-    "videos": [],
-    "timestamp": "",
-    "location": {
-      "long": "",
-      "lat": "",
-      "city": "",
-      "country": ""
-    },
-    "tags": [],
-    "likes": [],
-    "comments": []
-  },
-  {
-    "category": "",
-    "icon": "",
-    "text": "",
-    "images": [],
-    "videos": [],
-    "timestamp": "",
     "location": {
       "long": "",
       "lat": "",
