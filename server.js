@@ -43,6 +43,28 @@ app.post('/comments.json', function(req, res) {
     });
 });
 
+
+app.get('/cards.json', function(req, res) {
+    fs.readFile('./data/_cards.json', function(err, data) {
+        res.setHeader('Access-Control-Allow-Origin', '*');
+        res.setHeader('Content-Type', 'application/json');
+        res.send(data);
+    });
+});
+
+app.post('/cards.json', function(req, res) {
+    fs.readFile('./data/_cards.json', function(err, data) {
+        var cardss = JSON.parse(data);
+        cards.push(req.body);
+        fs.writeFile('./data/_cards.json', JSON.stringify(cards, null, 4), function(err) {
+            res.setHeader('Access-Control-Allow-Origin', '*');
+            res.setHeader('Content-Type', 'application/json');
+            res.send(JSON.stringify(cards));
+        });
+    });
+});
+
+
 app.listen(3000);
 
 console.log('Server started: http://localhost:3000/');
