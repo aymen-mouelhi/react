@@ -39,12 +39,15 @@ var CardDetails = React.createClass({
 // Todo: Use Polymer Card + Avatar
 var Card = React.createClass({
     render: function () {
-        var rawMarkup = converter.makeHtml(this.props.children.toString());
+        //var rawMarkup = converter.makeHtml(this.props.children.toString());
         return (
             <div className="card">
-                <CardCategory />
-                <CardText />
-                <CardDetails />
+                <div className="content">
+                    <div className="title">Permission</div>
+                    <CardCategory />
+                    <CardText />
+                    <CardDetails />
+                </div>
             </div>
         );
     }
@@ -96,6 +99,7 @@ var Dashboard = React.createClass({
         );
     }
 });
+
 
 // Render Dashboard
 React.render(
