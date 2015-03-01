@@ -18,7 +18,7 @@ var Avatar = React.createClass({
 var ProfilePic = React.createClass({
     render: function() {
         return (
-            <img src={'http://graph.facebook.com/' + this.props.username + '/picture'} className="profile-img" />
+            <img src={'https://graph.facebook.com/' + this.props.username + '/picture'} className="profile-img" />
         );
     }
 });
@@ -31,7 +31,7 @@ var ProfileInfo = React.createClass({
                     <strong className="fullname">{this.props.username}</strong>
                 </div>
                 <span className="screenname">
-                    <a href={'http://www.facebook.com/' + this.props.username} className="screenname">
+                    <a href={'https://www.facebook.com/' + this.props.username} className="screenname">
                         {this.props.username}
                     </a>
                 </span>
