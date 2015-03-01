@@ -167,6 +167,6 @@ var Dashboard = React.createClass({
 
 // Render Dashboard
 React.render(
-    <Dashboard url="http://localhost:3000/cards.json"  pollInterval={2000} />,
+    <Dashboard url="/cards.json"  pollInterval={2000} />,
     document.getElementById('content')
 );
